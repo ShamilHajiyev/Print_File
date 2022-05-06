@@ -10,7 +10,12 @@ namespace Print
 
         public Excel()
         {
-            Name = "PDF";
+            Name = "Excel";
+        }
+
+        public string Print()
+        {
+            return Name;
         }
     }
 }

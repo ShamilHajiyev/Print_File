@@ -12,5 +12,10 @@ namespace Print
         {
             Name = "Word";
         }
+
+        public string Print()
+        {
+            return Name;
+        }
     }
 }

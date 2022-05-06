@@ -10,7 +10,9 @@ namespace Print
             Excel excel = new Excel();
             Word word = new Word();
 
-            MainPrintFile mpf = new MainPrintFile(excel);
+            MainPrintFile mpf = new MainPrintFile(pdf);
+            MainPrintFile mpf2 = new MainPrintFile(excel);
+            MainPrintFile mpf3 = new MainPrintFile(word);
         }
     }
 }

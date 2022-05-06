@@ -9,7 +9,7 @@ namespace Print
         public MainPrintFile(Iprintable file)
         {
             
-            Console.WriteLine($"{file.GetType()} cap edildi");
+            Console.WriteLine($"{file.Print()} cap edildi");
         }
     }
 }

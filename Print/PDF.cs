@@ -12,5 +12,10 @@ namespace Print
         {
             Name = "PDF";
         }
+
+        public string Print()
+        {
+            return Name;
+        }
     }
 }
